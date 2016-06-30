@@ -18,6 +18,7 @@ class Board
        @column=0
        @rowcoordinate=0
    end
+   attr_accessor :counter :column
 
 #Main render function   
    def render
